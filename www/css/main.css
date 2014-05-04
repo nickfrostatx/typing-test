@@ -1,0 +1,69 @@
+body {
+    padding-top: 70px; /* Navbar */
+}
+
+
+
+#story {
+    font-size: 24px;
+}
+
+#input {
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+.correct {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.current {
+    color: blue;
+}
+
+
+/*
+ * Make top navbar green
+ */
+
+.maestro-navbar {
+    background-color: #589c95;
+    border-color: #487f7a;
+}
+
+.maestro-navbar .navbar-collapse {
+    border-color: #487f7a;
+}
+
+.maestro-navbar .navbar-brand {
+    color: #fff;
+}
+
+.maestro-navbar .navbar-nav > li > a {
+    color: #d7f4f2;
+}
+
+.maestro-navbar .navbar-nav > li > a:hover {
+    color: #fff;
+}
+
+.maestro-navbar .navbar-nav > .active > a,
+.maestro-navbar .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #487f7a;
+}
+
+.maestro-navbar .navbar-toggle {
+    border-color: #589c95;
+}
+
+.maestro-navbar .navbar-toggle:hover {
+    background-color: #487f7a;
+    border-color: #487f7a;
+}
+
+
